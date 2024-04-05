@@ -1,0 +1,380 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    background-color: rgb(27, 27, 27);
+    
+
+}
+
+
+
+/* navbar */
+
+
+
+
+
+
+
+.nav a:hover{
+    text-decoration: underline 3px red;
+    color: white;
+}
+
+
+
+
+
+.nav a {
+    color: rgb(240, 231, 231); 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* home section */
+
+
+#HOME{
+    background-image: url(images/first.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+     background-position: center center; 
+
+     
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+/* contact us button */
+
+#HOME .btn-c{
+
+    text-decoration: none;
+    border:  2px solid white;
+    color: white;
+    border-radius: 6px;
+    padding: 1% 1%;
+    
+    
+    
+
+
+}
+#HOME a:hover{
+    background-color: white;
+    color: black;
+
+}
+
+
+
+
+
+
+
+.text{
+    text-align: center;
+     margin-top: 40px; 
+     font-weight: 900;
+     color: antiquewhite;
+     
+}
+.text p{
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    margin-top: 70px;
+    text-indent: 2px;
+}
+.text h1{
+    font-weight: bolder;
+}
+
+
+
+
+
+/* us part */
+
+.us h2{
+    text-align: center;
+     margin-bottom: 60px; 
+    font-weight: bolder;
+    
+    
+    
+}
+
+
+
+.us{
+    background-image: url(images/us-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-bottom: 33px;
+    background-position: center center;
+}
+
+
+
+/* healthy   part*/
+
+
+.healthy{
+    background-image: url(images/healthy-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding-bottom: 33px;
+    background-position: center center;
+}
+.healthy h2{
+    font-weight: bolder;
+    margin-top: 90px;
+    margin-bottom: 80px;
+}
+
+
+
+
+
+/* read more button  */
+
+
+.healthy .row  .btn-r{
+    text-decoration: none;
+    border:  2px solid white;
+    color: white;
+    border-radius: 6px;
+    padding: 1% 1%;
+}
+.healthy .row  .btn-r:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.healthy .btn{
+    border: none;
+}
+
+
+
+/* trainer */
+
+
+.trainer{
+    background-image: url(images/trainer-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-bottom: 33px;
+    background-position: center center;
+}
+
+.trainer h5{
+    font-weight: bold;
+  text-align: center;
+}
+
+.trainer h2{
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 80px;
+}
+
+
+
+
+/* contact */
+
+
+
+.contact{
+    background-color: black;
+    color: white;
+   
+    
+}
+.contact .head{
+    text-align: center;
+}
+.contact input{
+    
+
+     
+    border: none;
+    background-color: white;
+    color: rgb(26, 25, 25);
+    padding: 2%;
+    margin-bottom: 3%;
+
+}
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+.form_conta h2{
+    margin-top: 2%;
+}
+
+ .contact .d-flex  button{
+    color: white;
+    background-color: red;
+    
+} 
+  
+ 
+
+/* footer */
+
+.footer .container .row{
+    text-decoration: none;
+    color: darkgrey;
+
+}
+.footer{
+    background-color:black;
+    padding:5% 5%
+}
+
+.footer .container .row h4{
+    color:  rgb(218, 213, 213);
+}
+.footer  .col-md-4  ul li a{
+    text-decoration: none;
+    color: darkgrey;
+    
+
+}
+.footer  .col-md-4  ul {
+    list-style-type: none;
+
+}
+
+.footer .copy p{
+    color: darkgrey;
+    margin-left: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* resposive */
+
+
+
+
+
+
+
+
+
+@media (max-width: 190px) {
+    #HOME, .us, .healthy,.trainer {
+        background-image: none;
+    }
+    
+}
+
+@media (max-width: 190px) {
+    .footer, .contact{
+        background-color: transparent;
+    }
+    
+}
+
+
+
+
+
+/* us part */
+
+
+@media(max-width:300px){
+    .us .detail h5 {
+
+        font-size: small;
+    
+    }
+}
+
+
+
+
+/* contact */
+
+@media(max-width:390px){
+    .contact .head h2{
+        font-size: small;
+    }
+}
+
+
+
+/* form button */
+
+@media(max-width:250px){
+    .contact form .d-flex button{
+        font-size: 5px;
+        padding: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
