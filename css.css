@@ -364,6 +364,63 @@ body{
 
 
 
+/* footer */
+
+
+
+
+
+@media (max-width: 768px) {
+    .footer .col-md-4 {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+        height: 30%;
+    }
+
+    .footer ul.social-icons {
+        justify-content: center;
+    }
+    .copy{
+        p{
+            padding-right: 20%;
+        }
+    }
+}
+
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 10px 0;
+        h4{
+            font-size: small;
+        }
+        p ,a{
+            font-size: smaller;
+        }
+        
+    }
+
+    .footer .container {
+        padding: 0 10px;
+    }
+
+    .footer .copy {
+        font-size: 14px;
+    }
+
+    .copy{
+        p{
+            padding-right: 20%;
+        }
+    }
+}
+
+
+
+
+
+
 
 
 
