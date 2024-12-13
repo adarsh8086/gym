@@ -25,3 +25,15 @@ A responsive gym website built with **HTML**, **CSS**, **JavaScript**, and **Boo
 - **Bootstrap**: For responsive design and UI components.
 
 ---
+
+
+## 🖼️ **Screenshots**
+
+### 🏠 **Homepage**
+
+![Homepage Screenshot](screenshots/homepage.png)
+
+### 🏋️‍♂️ **Trainers Page**
+
+![Trainers Screenshot](screenshots/trainers.png)
+
